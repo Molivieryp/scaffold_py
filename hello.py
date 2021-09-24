@@ -1,6 +1,9 @@
-def add(x, y):
-    return x + y
+def toyou(x):
+    return f"hi {x}"
 
+def add(x):
+    return x + 1
 
-result = add(4, 5)
-print(f"the result of adding 4 + 5 is: {result}")
+def subtract(x):
+    return x - 1
+    
