@@ -2,6 +2,9 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
+install-azure:
+	pip install --upgrade pip &&\
+		pip install -r requirements_azure.txt
 test:
 	python -m pytest -vv test_hello.py
 
